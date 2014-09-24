@@ -1,0 +1,27 @@
+body {
+    background-color: #000000 ;
+}
+table {
+    margin:  36px -50px 8px;
+    border-spacing: 0px;
+}
+td {
+    border-radius: 3px;
+    border: 1px solid white;
+}
+h1{ 
+color:#5c5c5c; 
+font-size:22px; 
+margin: 16px 550px 8px;
+}
+
+h2{ 
+color:#5c5c5c; 
+font-size:18px; 
+margin: 5px 0px 0px;
+}
+
+h3{ 
+color:#5c5c5c; 
+font-size:16px; 
+margin: 3px 0px 0px;}

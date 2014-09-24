@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Maze </title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1> Welcome to maze!!! <h1>
+<table cellspacing="30" cellpadding="30">
+<tr><td background='start.png'></td>
+<td background='blub.jpg'></td>
+<td background='path.png'></td>
+<td background='block.png'></td>
+</tr>
+<tr><td background='path.png'></td>
+<td background='blub.jpg'></td>
+<td background='path.png'></td>
+<td background='block.png'></td>
+</tr>
+<tr><td background='block.png'></td>
+<td background='blub.jpg'></td>
+<td background='block.png'></td>
+<td background='path.png'></td>
+</tr>
+<tr><td background='block.png'></td>
+<td background='blub.jpg'></td>
+<td background='blub.jpg'></td>
+<td background='finish.png'></td>
+</tr>
+</table>
+<br><br>
+<h1>Hurray!!! Path found!!!</h1><h2> Instructions: </h2>
+<h2> 1. To play the game - Copy the maze.rb and style.css to your system </h2>
+<h2> 2. Copy the sample input file - the file will have the row*column of maze and the vertices of blocked cells, you can change the dimensions and vaues as per your interest</h2>
+<h3> Pre-requisite: </h3>
+<h3> Your machine should be installed with ruby, in order to play this game </h3>
+<h2> 3. Execute the maze.rb and give the input file as input on the prompt</h2> 
+<br><br>
+<h2> Algorithm: </h2>
+<h2> 1. The first cell of the table is the start index and the last cell of the table is the last index </h2> 
+<h2> 2. The path from the first to last is traversed by using depth first search algorithm</h2> 
+<h2> 3. Each time when the cell is visited, the adjacent cells are pushed to the stack</h2> 
+<h2> 4. The last vertex is popped and marked as visited </h2>
+<h2> 5. In the map the predecessor to the cell is mapped, to track the visited path </h2>
+<h3 align="right" > Developed by Devi Kandasamy(W1003221) </h3>
+<h3 align="right"> COEN 278: Web programming II  </h3>
+<h3 align="right"> Assignment -3 </h3>
+</body></html>
